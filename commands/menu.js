@@ -117,12 +117,12 @@ menu += `┗━━━━━━━━━━━━━━━
 
       if (device === "android") {
         await client.sendMessage(remoteJid, {
-          image: { url: "database/menu.jpg" },
+          image: { url: "https://files.catbox.moe/q0met9.jpg" },
           caption: stylizedChar(menu),
           contextInfo: {
             participant: "0@s.whatsapp.net",
-            remoteJid: "status@broadcast",
-            quotedMessage: { conversation: " Sigma Exo" },
+            remoteJid: "120363423792937578@newsletter",
+            quotedMessage: { conversation: " Sigma Exo bot" },
             isForwarded: true
           }
         });
