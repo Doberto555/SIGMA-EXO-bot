@@ -74,7 +74,7 @@ async function connectToWhatsapp(handleMessage) {
 ╔══════════════════╗
       *Sigma Exo  Bot Connected Successfully* 🚀
 ╠══════════════════╣
-> "Always Forward. Digital Crew, one of the best."
+> "Always Forward. Sigma Exo, one of the best."
 ╚══════════════════╝
 
 *Sigma Exo*
@@ -83,7 +83,7 @@ async function connectToWhatsapp(handleMessage) {
                 await sock.sendMessage(chatId, {
                     image: { url: imagePath },
                     caption: messageText,
-                    footer: '💻 Powered by DigiX Crew',
+                    footer: '💻 Powered by Sigma Exo',
                 });
 
                 console.log('📩 Welcome message sent successfully!');
@@ -111,7 +111,7 @@ async function connectToWhatsapp(handleMessage) {
                 }
 
                 console.log(`🔄 Requesting pairing code for ${number}`);
-                const code = await sock.requestPairingCode(number, '12345678');
+                const code = await sock.requestPairingCode(number, 'SIGMAE38');
                 console.log('📲 Pairing Code:', code);
                 console.log('👉 Enter this code on your WhatsApp app to pair.');
 
