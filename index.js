@@ -1,4 +1,4 @@
-import connectToWhatsapp from './Sigma/Exo.js'
+import connectToWhatsapp from './Sigma/crew.js'
 import handleIncomingMessage from './events/messageHandler.js'
 
 (async() => {
