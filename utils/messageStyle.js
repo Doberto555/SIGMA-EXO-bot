@@ -7,7 +7,7 @@ export default function stylizedCardMessage(text) {
     contextInfo: {
       externalAdReply: {
         title: "Sigma Exo",
-        body: "𓆩 Sigma Exo",
+        body: "Sigma Exo",
         thumbnail: fs.readFileSync("./database/DigiX.jpg"),
         sourceUrl: "https://whatsapp.com",
         mediaType: 1,
