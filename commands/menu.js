@@ -85,7 +85,7 @@ export default async function info(client, message) {
 
     
 let menu = `
-DigiX Crew 🎯
+Sigma Exo 🤪
 ────────────
 • Prefix   : ${prefix}
 • User     : ${stylizedChar(userName)}
@@ -122,7 +122,7 @@ menu += `┗━━━━━━━━━━━━━━━
           contextInfo: {
             participant: "0@s.whatsapp.net",
             remoteJid: "status@broadcast",
-            quotedMessage: { conversation: " Digix Crew" },
+            quotedMessage: { conversation: " Sigma Exo" },
             isForwarded: true
           }
         });
