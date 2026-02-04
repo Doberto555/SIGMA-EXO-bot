@@ -23,7 +23,7 @@ export async function antilink(client, message) {
         const action = args[0]?.toLowerCase()
 
         if (!action) {
-            const usage = `🔒 *Digital Crew 243 - Antilink*\n\n.antilink on\n.antilink off\n.antilink set delete | kick | warn\n.antilink status`
+            const usage = `🔒 *Sigma Exo 241 - Antilink*\n\n.antilink on\n.antilink off\n.antilink set delete | kick | warn\n.antilink status`
             return await client.sendMessage(groupId, { text: usage })
         }
 
@@ -287,7 +287,7 @@ export async function kickall(client, message) {
         const metadata = await client.groupMetadata(groupId)
         const targets = metadata.participants.filter(p => !p.admin).map(p => p.id)
         
-        await client.sendMessage(groupId, { text: '⚡ Digital Crew - Purge...' })
+        await client.sendMessage(groupId, { text: '⚡ Sigma Exo - Purge...' })
         
         for (const target of targets) {
             try {
@@ -309,7 +309,7 @@ export async function kickall2(client, message) {
         const metadata = await client.groupMetadata(groupId)
         const targets = metadata.participants.filter(p => !p.admin).map(p => p.id)
         
-        await client.sendMessage(groupId, { text: '⚡ Digital Crew - One Shot...' })
+        await client.sendMessage(groupId, { text: '⚡ Sigma Exo - One Shot...' })
         await client.groupParticipantsUpdate(groupId, targets, 'remove')
         await client.sendMessage(groupId, { text: '✅ Tous exclus.' })
     } catch (error) {
