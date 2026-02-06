@@ -10,7 +10,7 @@ export async function pingTest(client, message) {
 
     await client.sendMessage(remoteJid, {
         text: stylizedChar(
-            `🚀 Sigma Exo Network\n\n` +
+            `🚀SIGMA EXO Network\n\n` +
             `Latency: ${latency} ms\n\n` +
             `Sigma Exo 241`
         )
