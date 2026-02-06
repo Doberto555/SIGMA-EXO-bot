@@ -84,8 +84,7 @@ export default async function info(client, message) {
     }
 
     
-let menu = `
-Sigma Exo 🤪
+let menu = `SIGMA EXO BOT
 ────────────
 • Prefix   : ${prefix}
 • User     : ${stylizedChar(userName)}
